@@ -1,0 +1,116 @@
+[
+    {
+        "Id": 16,
+        "Title": "Collège de Maisonneuve",
+        "Url": "https://www.cmaisonneuve.qc.ca/",
+        "Category": "Cegep"
+    },
+    {
+        "Id": 14,
+        "Title": "Collège Lionel-Groulx",
+        "Url": "https://clg.qc.ca/",
+        "Category": "Cegep"
+    },
+    {
+        "Id": 15,
+        "Title": "Collège Montmorency",
+        "Url": "https://www.cmontmorency.qc.ca/",
+        "Category": "Cegep"
+    },
+    {
+        "Id": 13,
+        "Title": "Azure",
+        "Url": "https://portal.azure.com/#home",
+        "Category": "Cloud"
+    },
+    {
+        "Id": 12,
+        "Title": "Glitch",
+        "Url": "https://glitch.com/",
+        "Category": "Cloud"
+    },
+    {
+        "Id": 11,
+        "Title": "GitHub",
+        "Url": "https://github.com/",
+        "Category": "Cloud"
+    },
+    {
+        "Id": 3,
+        "Title": "Météo Blainville",
+        "Url": "https://www.meteomedia.com/ca/meteo/quebec/blainville",
+        "Category": "Météo"
+    },
+    {
+        "Id": 5,
+        "Title": "NHC",
+        "Url": "https://www.nhc.noaa.gov/index.shtml",
+        "Category": "Météo"
+    },
+    {
+        "Id": 4,
+        "Title": "Windy.com",
+        "Url": "https://www.windy.com/station/madis-c3442?45.765,-73.694,8",
+        "Category": "Météo"
+    },
+    {
+        "Id": 6,
+        "Title": "CNN",
+        "Url": "https://www.cnn.com/",
+        "Category": "Nouvelles"
+    },
+    {
+        "Id": 1,
+        "Title": "Radio-Canada",
+        "Url": "https://ici.radio-canada.ca",
+        "Category": "Nouvelles"
+    },
+    {
+        "Id": 7,
+        "Title": "Facebook",
+        "Url": "https://www.facebook.com/",
+        "Category": "Réseaux sociaux"
+    },
+    {
+        "Id": 20,
+        "Title": "Instagram",
+        "Url": "https://www.instagram.com/?hl=fr",
+        "Category": "Réseaux sociaux"
+    },
+    {
+        "Id": 10,
+        "Title": "Tiktok",
+        "Url": "https://www.tiktok.com/fr/",
+        "Category": "Réseaux sociaux"
+    },
+    {
+        "Id": 9,
+        "Title": "Disney Plus",
+        "Url": "https://www.disneyplus.com/fr-ca/home",
+        "Category": "Streaming"
+    },
+    {
+        "Id": 8,
+        "Title": "Netflix",
+        "Url": "https://www.netflix.com/browse",
+        "Category": "Streaming"
+    },
+    {
+        "Id": 17,
+        "Title": "ETS",
+        "Url": "https://www.etsmtl.ca/",
+        "Category": "Université"
+    },
+    {
+        "Id": 19,
+        "Title": "Univerité de Sherbrooke",
+        "Url": "https://www.usherbrooke.ca/",
+        "Category": "Université"
+    },
+    {
+        "Id": 18,
+        "Title": "Université de Montréal",
+        "Url": "https://www.umontreal.ca/",
+        "Category": "Université"
+    }
+]

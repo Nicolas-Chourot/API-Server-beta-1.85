@@ -1,0 +1,30 @@
+[
+    {
+        "Id": 1,
+        "Name": "Nicolas Chourot",
+        "Phone": "(450) 430-3120",
+        "Email": "Nicolas.Chourot@clg.qc.ca",
+        "Avatar": "f5795080-4468-11ee-8281-2f600646bb7f.jpeg"
+    },
+    {
+        "Id": 2,
+        "Name": "Saliha Yacoub",
+        "Phone": "(450) 430-3120",
+        "Email": "Saliha.Yacoub@clg.qc.ca",
+        "Avatar": "5b156ce0-46c0-11ee-9c7d-4dfffb69e19c.png"
+    },
+    {
+        "Id": 3,
+        "Name": "Stéphane Chassé",
+        "Phone": "(450) 430-4120",
+        "Email": "Stephance.Chasse@clg.qc.ca",
+        "Avatar": "78f177e0-46c0-11ee-9c7d-4dfffb69e19c.png"
+    },
+    {
+        "Id": 4,
+        "Name": "Patrice Roy",
+        "Phone": "(450) 430-3120",
+        "Email": "Patrice.Roy@clg.qc.ca",
+        "Avatar": "a634d710-46c0-11ee-9c7d-4dfffb69e19c.png"
+    }
+]
