@@ -6,10 +6,10 @@
   },
   "version": "1.0.0",
   "description": "Serveur http minimal",
-  "main": "ContactsService.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ContactsService.js"
+    "start": "node server.js"
   },
   "author": "Nicolas Chourot",
   "license": "ISC",
