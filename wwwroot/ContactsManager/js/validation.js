@@ -52,9 +52,9 @@ function initFormValidation() {
     });
 
     $("input, select").each(function () {
-        let RequireMessage = $(this).attr('RequireMessage') != null ? $(this).attr('RequireMessage') : defaultRequireMessage;
-        let InvalidMessage = $(this).attr('InvalidMessage') != null ? $(this).attr('InvalidMessage') : defaultInvalidMessage;
-        let CustomErrorMessage = $(this).attr('CustomErrorMessage') != null ? $(this).attr('CustomErrorMessage') : defaultCustomErrorMessage;
+        let RequireMessage = $(this).attr('RequireMessage') ? $(this).attr('RequireMessage') : defaultRequireMessage;
+        let InvalidMessage = $(this).attr('InvalidMessage') ? $(this).attr('InvalidMessage') : defaultInvalidMessage;
+        let CustomErrorMessage = $(this).attr('CustomErrorMessage') ? $(this).attr('CustomErrorMessage') : defaultCustomErrorMessage;
         $(this).on("input", function (event) {
             event.target.setCustomValidity('');
             event.target.checkValidity();

@@ -1,1 +1,122 @@
-[{"Id":1,"Title":"Échange de données","Code":"420-KBG-LG"},{"Id":2,"Title":"Profession informatique","Code":"420-KBF-LG"}]
+[
+    {
+        "Id": 1,
+        "Code": "420-KB1-LG",
+        "Title": "Introduction à la programmation"
+    },
+    {
+        "Id": 2,
+        "Code": "420-KB2-LG",
+        "Title": "Conception d'interfaces Web"
+    },
+    {
+        "Id": 3,
+        "Code": "420-KB3-LG",
+        "Title": "Exploitation d'une station de travail"
+    },
+    {
+        "Id": 4,
+        "Code": "420-KB4-LG",
+        "Title": "Programmation orientée objet"
+    },
+    {
+        "Id": 5,
+        "Code": "420-KB5-LG",
+        "Title": "Programmation Web"
+    },
+    {
+        "Id": 6,
+        "Code": "420-KB6-LG",
+        "Title": "Introduction aux bases de données"
+    },
+    {
+        "Id": 7,
+        "Code": "420-KB7-LG",
+        "Title": "Réseaux informatiques"
+    },
+    {
+        "Id": 8,
+        "Code": "420-KB8-LG",
+        "Title": "Programmation d'applications mobiles"
+    },
+    {
+        "Id": 9,
+        "Code": "420-KB9-LG",
+        "Title": "Développement d'applications Web 1"
+    },
+    {
+        "Id": 10,
+        "Code": "420-KBA-LG",
+        "Title": "Programmations de bases de données"
+    },
+    {
+        "Id": 11,
+        "Code": "420-KBB-LG",
+        "Title": "Programmation orientée objets avancée"
+    },
+    {
+        "Id": 12,
+        "Code": "420-KBC-LG",
+        "Title": "Développement d'applications mobiles"
+    },
+    {
+        "Id": 13,
+        "Code": "420-KBD-LG",
+        "Title": "Développement d'application Web 2"
+    },
+    {
+        "Id": 14,
+        "Code": "420-KBE-LG",
+        "Title": "Projet dirigé"
+    },
+    {
+        "Id": 15,
+        "Code": "420-KBF-LG",
+        "Title": "Professions de l'informatique"
+    },
+    {
+        "Id": 16,
+        "Code": "420-KBG-LG",
+        "Title": "Développement de services d'échanges de données"
+    },
+    {
+        "Id": 17,
+        "Code": "420-KBH-LG",
+        "Title": "Projet d'intégration"
+    },
+    {
+        "Id": 18,
+        "Code": "420-KBJ-LG",
+        "Title": "Stage en informatique"
+    },
+    {
+        "Id": 19,
+        "Code": "420-KBK-LG",
+        "Title": "Veille technologique"
+    },
+    {
+        "Id": 20,
+        "Code": "420-KJ1-LG",
+        "Title": "Développement de jeux vidéo"
+    },
+    {
+        "Id": 21,
+        "Code": "420-KJ2-LG",
+        "Title": "Conception de jeux vidéos"
+    },
+    {
+        "Id": 22,
+        "Code": "420-KF1-LG",
+        "Title": "Développement d'environnements intelligents"
+    },
+    {
+        "Id": 23,
+        "Code": "420-KF2-LG",
+        "Title": "Conception d'environnements intelligents"
+    },
+    {
+        "Id": 24,
+        "Code": "350-KB1-LG",
+        "Title": "Interaction dans le monde professionnel"
+    }
+]

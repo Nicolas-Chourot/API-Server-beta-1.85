@@ -22,7 +22,7 @@ export default class Model {
         return this.constructor.name;
     }
     valueValid(value, type) {
-        if (value !== null) {
+        if (value) {
             switch (type) {
                 case "string": return true;
                 case "stringNotEmpty": return value != "";
@@ -57,7 +57,7 @@ export default class Model {
         });
     }
     stringToType(instance, fieldName, type) {
-        if (instance[fieldName] !== null) {
+        if (instance[fieldName]) {
             switch (type) {
                 case "integer": instance[fieldName] = parseInt(instance[fieldName]); break;
                 case "float": instance[fieldName] = parseFloat(instance[fieldName]); break;
@@ -68,12 +68,12 @@ export default class Model {
         this.fields.forEach(field => {
             if ((field.name in instance) && (field.type == "asset")) {
                 if (instance[field.name] == '') {
-                    if (storedInstance != null) {
+                    if (storedInstance) {
                         instance[field.name] = storedInstance[field.name];
                     }
                 } else {
                     instance[field.name] = AssetsRepository.save(instance[field.name]);
-                    if (storedInstance != null) {
+                    if (storedInstance) {
                         AssetsRepository.remove(storedInstance[field.name]);
                     }
                 }

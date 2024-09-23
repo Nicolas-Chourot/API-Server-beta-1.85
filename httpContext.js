@@ -52,7 +52,7 @@ export default class HttpContext {
                     try { this.payload = queryString.parse(utilities.getQueryString(this.req.url)); }
                     catch (error) { console.log(error); }
                 }
-                if (this.payload != null) {
+                if (this.payload) {
                     if (Object.keys(this.payload).length == 0)
                         this.payload = null;
                 }

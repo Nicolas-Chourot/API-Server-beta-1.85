@@ -30,11 +30,11 @@ export default class Response {
   /////////////////////////////////////////////// 200 ///////////////////////////////////////////////////////
 
     ok() { return this.status(200); }       // ok status
-    JSON(jsonObj) {                         // ok status with content
+    JSON(obj) {                         // ok status with content
         this.res.writeHead(200, { 'content-type': 'application/json' });
-        if (jsonObj != null) {
-            let content = JSON.stringify(jsonObj);
-            return this.end(content);
+        if (obj) {
+            let json = JSON.stringify(obj);
+            return this.end(json);
         } else
             return this.end();
     }
@@ -44,9 +44,9 @@ export default class Response {
     }
     accepted() { return this.status(202); } // accepted status
     deleted() { return this.status(202); }  // accepted status
-    created(jsonObj) {                      // created status
+    created(obj) {                      // created status
         this.res.writeHead(201, { 'content-type': 'application/json' });
-        return this.end(JSON.stringify(jsonObj));
+        return this.end(JSON.stringify(obj));
     }
     content(contentType, content) {         // let the browers cache locally the receiverd content
         this.res.writeHead(200, { 'content-type': contentType, "Cache-Control": "public, max-age=31536000" });

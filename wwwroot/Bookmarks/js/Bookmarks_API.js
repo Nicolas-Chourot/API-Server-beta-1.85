@@ -3,7 +3,7 @@ class Bookmarks_API {
     static async Get(id = null) {
         return new Promise(resolve => {
             $.ajax({
-                url: this.API_URL() + (id != null ? "/" + id : ""),
+                url: this.API_URL() + (id ? "/" + id : ""),
                 success: contacts => { resolve(contacts); },
                 error: (xhr) => { console.log(xhr); resolve(null); }
             });

@@ -4,11 +4,10 @@ export default class Controller {
         this.repository = repository;
     }
     get(id) {
-        if (this.repository != null) {
             if (id !== undefined) {
                 if (!isNaN(id)) {
                     let data = this.repository.get(id);
-                    if (data != null)
+                    if (data)
                         this.HttpContext.response.JSON(data);
                     else
                         this.HttpContext.response.notFound("Ressource not found.");
@@ -17,9 +16,6 @@ export default class Controller {
             }
             else
                 this.HttpContext.response.JSON(this.repository.getAll());
-        }
-        else
-            this.HttpContext.response.notImplemented();
     }
     post(data) {
         data = this.repository.add(data);

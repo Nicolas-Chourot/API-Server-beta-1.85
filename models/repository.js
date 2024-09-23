@@ -51,7 +51,7 @@ export default class Repository {
     checkConflict(instance) {
         let conflict = false;
         if (this.model.key)
-            conflict = this.findByField(this.model.key, instance[this.model.key], instance.Id) != null;
+            conflict = this.findByField(this.model.key, instance[this.model.key], instance.Id);
         if (conflict) {
             this.model.addError(`Unicity conflict on [${this.model.key}]...`);
             this.model.state.inConflict = true;

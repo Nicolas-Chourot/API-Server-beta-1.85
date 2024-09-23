@@ -37,7 +37,7 @@ function renderAbout() {
                     Auteur: Nicolas Chourot
                 </p>
                 <p>
-                    Collège Lionel-Groulx, automne 2023
+                    Collège Lionel-Groulx, automne 2024
                 </p>
             </div>
         `))
@@ -80,7 +80,7 @@ function updateDropDownMenu(categories) {
 }
 function compileCategories(bookmarks) {
     let categories = [];
-    if (bookmarks != null) {
+    if (bookmarks) {
         bookmarks.forEach(bookmark => {
             if (!categories.includes(bookmark.Category))
                 categories.push(bookmark.Category);
@@ -96,7 +96,7 @@ async function renderBookmarks() {
     let Bookmarks = await Bookmarks_API.Get();
     compileCategories(Bookmarks)
     eraseContent();
-    if (Bookmarks !== null) {
+    if (Bookmarks) {
         Bookmarks.forEach(Bookmark => {
             if ((selectedCategory === "") || (selectedCategory === Bookmark.Category))
                 $("#content").append(renderBookmark(Bookmark));
@@ -145,7 +145,7 @@ function renderCreateBookmarkForm() {
 async function renderEditBookmarkForm(id) {
     showWaitingGif();
     let Bookmark = await Bookmarks_API.Get(id);
-    if (Bookmark !== null)
+    if (Bookmark)
         renderBookmarkForm(Bookmark);
     else
         renderError("Bookmark introuvable!");
@@ -158,7 +158,7 @@ async function renderDeleteBookmarkForm(id) {
     let Bookmark = await Bookmarks_API.Get(id);
     let favicon = makeFavicon(Bookmark.Url);
     eraseContent();
-    if (Bookmark !== null) {
+    if (Bookmark) {
         $("#content").append(`
         <div class="BookmarkdeleteForm">
             <h4>Effacer le favori suivant?</h4>
