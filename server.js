@@ -9,7 +9,7 @@ const server = createServer(async (req, res) => {
     let httpContext = await HttpContext.create(req, res);
     if (!handleCORSPreflight(httpContext))
         if (!handleStaticResourceRequest(httpContext))
-            if (!router.API_EndPoint(httpContext))
+            if (!await router.API_EndPoint(httpContext))
                 httpContext.response.notFound('this end point does not exist...');
 
 });
