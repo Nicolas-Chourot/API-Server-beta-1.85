@@ -22,7 +22,7 @@ export default class Model {
         return this.constructor.name;
     }
     valueValid(value, type) {
-        if (value) {
+        if (value !== null) {
             switch (type) {
                 case "string": return true;
                 case "stringNotEmpty": return value != "";
